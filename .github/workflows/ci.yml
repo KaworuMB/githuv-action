@@ -21,4 +21,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t kaworumb/ci .
     - name: Push to Dockerhub
-      run: docker push kaworumb/ci.yml:latest
+      run: docker push kaworumb/ci:latest
